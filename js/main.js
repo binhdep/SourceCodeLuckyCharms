@@ -4,7 +4,7 @@ $(document).ready(function (e) {
             o = "",
             i = "";
         return (
-            "manager" === e && (n = '<img class="chat-content-desc-image" src="img/apple-1.png" alt="" />'),
+            "manager" === e && (n = '<img class="chat-content-desc-image" src="img/hanzavatar.png" alt="" />'),
             t && ((o = "text-" + t), (i = ' class="p' + t + '"')),
             '<div class="chat-content-item ' + e + " " + o + '"><div class="chat-content-desc">' + n + '<div class="chat-content-desc-item ' + e + '"><p' + i + ">" + a + "</p></div></div></div>"
         );
@@ -123,14 +123,14 @@ $(document).ready(function (e) {
         }),
         (e.managerDialog = [
             {
-                text: "Hi!<br>Ako si Apple Paguio. Isang Physic reader at Astrologo.<br>Anong pangalan mo?",
+                text: "Hello aking kaibigan, kumusta ka?<br>Ako si Hanz Cua. Isang Physic reader at Astrologo.<br>Anong pangalan mo?",
             },
             {
-                text: "Ikaw ba ay Lalaki o Babae?",
+                text: "Gusto kong malaman kung lalaki ka o babae?",
                 m: {text: "Lalaki"}, w: {text: "Babae"}
             },
             {
-                text: "Kailan ka ipinanganak?"
+                text: "Kailan ang iyong kaarawan?"
             },
         ]),
         (e.userZodiak = [
