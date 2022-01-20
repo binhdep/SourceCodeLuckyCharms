@@ -1,4 +1,7 @@
 $(document).ready(function (e) {
+      $('#page1').css('display', 'none');
+     $('#page2').css('display', 'none');
+    $('#screenFirst').css('display', 'block');
     $('.cb-wrap').on('click', '#page1Submit', function () {
         let name = $('.cb-form-main input[name="cb-name"]').val();
         $('#page1').css('display', 'none');
